@@ -1,5 +1,4 @@
-html{
-}
+
 
 body{
   font-family: "Source sans pro", sans-serif;
@@ -25,12 +24,12 @@ h6
    padding-top: 69px;
    padding-left: 50px;
  }
+ 
  h1 strong
  {
    color: #0037c3;
  }
-}
-}
+
 .hero{
   height: 300px;
   /*background-image: url("imagenes/desarrollador-web.png");*/
