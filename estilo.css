@@ -45,9 +45,10 @@ h6
 }
 .hero-image{
   object-fit: cover;
-  margin-top: -188px;
-  margin-left: 500px;
-  margin-bottom: -4px;
+  position: absolute;
+  right: 0;
+  background: linear-gradient(to right, #838383 , #4e4e4e);
+  padding-left: 100%;
 }
 .header{
   background: linear-gradient(to right, #838383 , #4e4e4e);
@@ -211,6 +212,7 @@ button{
 }
 .container{
   max-width: 1200px;
+  height: 100%;
   width: 100%;
   margin: 0 auto;
   display: inherit;
@@ -219,6 +221,13 @@ button{
   height: inherit;
   flex-wrap: inherit;
 }
+.container h1 {
+  position: absolute;
+  z-index: 99;
+}
+.margin{
+  margin-top: -150px!important;
+}
 
 @media screen and (max-width: 1024px) {
   .hero-image{
@@ -226,6 +235,9 @@ button{
     margin-left: 500px;
     width: 50%;
     height: 50%;
+  }
+  .margin{
+    margin-top: 0px!important;
   }
 }
 
@@ -360,8 +372,7 @@ button{
   }
   .project-image {
     width: 80%;
-    margin-left: 10%;
-    margin-top: 0;
+    margin: auto;
    }
    .project-image-calculadora{
      width: 300px;
@@ -399,9 +410,7 @@ button{
   margin-left: 0;
 }
 .project-image-calculadora{
-  width: 250px;
-  margin-left: 5%;
-  margin-top: 15%;
+  margin: auto;
 }
 
 
