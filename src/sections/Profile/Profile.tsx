@@ -20,7 +20,7 @@ function Profile() {
   return (
     <div className='profileContainer'>
       <h1>Duvier Reinosa</h1>
-      <span>Full Stack and Mobile developer</span>
+      <span>Full Stack and Mobile Developer</span>
       <div className='networksContainer'>
         <IconContext.Provider value={{ color: '#e0e0e0', size: '20px' }}>
           <SiGmail onClick={handleEmail} className='networkIcon' />
