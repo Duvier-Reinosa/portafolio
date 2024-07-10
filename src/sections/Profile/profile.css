@@ -1,0 +1,26 @@
+.profileContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 100px;
+    color: #f4f3f3;
+}
+
+.profileContainer h1{
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.networkIcon{
+    cursor: pointer;
+}
+
+.networksContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    width: 30%;
+    height: 20px;
+}
