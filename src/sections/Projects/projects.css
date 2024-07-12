@@ -1,0 +1,44 @@
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.projectsList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+@media screen and (max-width: 2020px){
+    .projectsList{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 1440px){
+    .projectsList{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 1200px){
+    .projectsList{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (max-width: 700px){
+    .projectsList{
+        width: 100%;
+    }
+    
+}

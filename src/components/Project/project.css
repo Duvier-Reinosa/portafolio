@@ -1,0 +1,71 @@
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 250px;
+    padding: 15px;
+    border: 2px solid #d5d5d5;
+    border-radius: 15px;
+    height: 400px;
+    background: #323232;
+    transition: all 0.3s ease;
+}
+
+.projectContainer:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 20px rgba(68, 0, 255, 0.37);
+}
+
+.projectImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    overflow: hidden; /* Asegura que solo se muestre el contenido dentro del contenedor */
+    border-radius: 15px;
+}
+
+.projectImageContainer img {
+    width: 100%; /* Aumenta el ancho para que solo se muestre el 75% */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+}
+
+.projectTextContainer{
+    margin-top: 10px;
+    /* margin-left: 10px; */
+}
+
+.projectTextContainer h3{
+    color: #ededed;
+}
+
+.projectRole{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ededed;
+
+}
+
+.projectDescription{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #ededed;
+    line-height: 18px;
+    /* width: 100%; */
+}
+
+.techsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: center;
+    width: 100%;
+}
+.techsContainer img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    margin-top: 10px;
+    object-fit: cover;
+}

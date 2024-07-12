@@ -1,7 +1,12 @@
 .principalContainer{
-  background: #323232;
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+.sectionTitle {
+  color: #f4f3f3;
+  margin-bottom: 20px;
+  position: relative; /* Necesario para posicionar el pseudo-elemento */
 }

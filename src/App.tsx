@@ -2,6 +2,7 @@ import toast, { Toaster } from 'react-hot-toast'
 import './App.css'
 import Profile from './sections/Profile/Profile'
 import { useEffect } from 'react'
+import Projects from './sections/Projects/Projects'
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,10 @@ function App() {
         reverseOrder={false}
       />
       <Profile />
+      <Projects />
+      {/* habilidades técnicas */}
+      {/* github */}
+      {/* empleos */}
     </div>
   )
 }
