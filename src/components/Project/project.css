@@ -69,3 +69,11 @@
     margin-top: 10px;
     object-fit: cover;
 }
+
+@media screen and (max-width: 440px){
+    .projectContainer{
+        width: auto;
+        margin: 10px 40px 10px 40px;
+    }
+    
+}

@@ -1,5 +1,3 @@
-import { FaReact,} from 'react-icons/fa'
-
 export const listWeb = [
     {
         title: 'Netmarket',

@@ -3,6 +3,9 @@ import './App.css'
 import Profile from './sections/Profile/Profile'
 import { useEffect } from 'react'
 import Projects from './sections/Projects/Projects'
+import Jobs from './sections/Jobs/Jobs'
+import { FaGithub } from 'react-icons/fa'
+import { IconContext } from 'react-icons'
 
 function App() {
   useEffect(() => {
@@ -21,9 +24,12 @@ function App() {
       />
       <Profile />
       <Projects />
-      {/* habilidades técnicas */}
-      {/* github */}
-      {/* empleos */}
+      <Jobs />
+      <div className='githubIcon'>
+        <IconContext.Provider value={{ color: '#e0e0e0', size: '60px' }}>
+          <FaGithub className='thumbDown' onClick={() => window.open('https://github.com/Duvier-Reinosa')} />
+        </IconContext.Provider>
+      </div>
     </div>
   )
 }

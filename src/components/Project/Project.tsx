@@ -1,6 +1,16 @@
 import './project.css'
 
-function Project({ project }) {
+interface ProjectProps {
+    project: {
+        title: string,
+        description: string,
+        role: string,
+        techs: string[],
+        image: string
+    }
+}
+
+function Project({ project } : ProjectProps) {
   return (
     <div className="projectContainer">
         <div className='projectImageContainer'>
@@ -11,7 +21,7 @@ function Project({ project }) {
             <p className='projectDescription'>{project.description}</p>
             <p className='projectRole'>Role: {project.role}</p>
             <div className='techsContainer'>
-                {project.techs.map((tech, index) => (
+                {project.techs.map((tech: string, index: number) => (
                     <img src={tech} key={index} />
                 ))}
             </div>

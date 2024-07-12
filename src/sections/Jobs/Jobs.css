@@ -1,0 +1,48 @@
+.jobsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.jobs{
+    /* margin-bottom: 40px; */
+}
+
+.job{
+    margin-top: 20px;
+    width: 100%;
+    border: #ededed 2px solid;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.job h3{
+    color: #ededed;
+}
+
+.job p{
+    color: #ededed;
+    margin-top: 10px;
+    width: auto;
+}
+
+@media screen and (max-width: 440px){
+    .jobs{
+        display: flex;
+        flex-direction: column;
+    }
+    .job{ 
+        width: auto;
+    }
+    .job h3{
+        width: 200px;
+    }
+
+    .job p{
+        width: 300px;
+    }
+    
+}

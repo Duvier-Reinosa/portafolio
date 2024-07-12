@@ -10,3 +10,14 @@
   margin-bottom: 20px;
   position: relative; /* Necesario para posicionar el pseudo-elemento */
 }
+
+.githubIcon{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.thumbDown{
+  cursor: pointer;
+}
